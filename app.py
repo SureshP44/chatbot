@@ -113,4 +113,4 @@ def errors(e):
 
 if __name__ == '__main__':
     
-    app.run(host="localhost", port=int("777"))
+    app.run(debug = True)
