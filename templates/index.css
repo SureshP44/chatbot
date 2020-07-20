@@ -1,0 +1,53 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+  bottom: 220px;
+}
+.footer {
+  background: black;
+  color: white;
+
+  .links {
+    ul {
+      list-style-type: none;
+    }
+    li a {
+      color: white;
+      transition: color 0.2s;
+      &:hover {
+        text-decoration: none;
+        color: #4180cb;
+      }
+    }
+  }
+  .about-company {
+    i {
+      font-size: 25px;
+    }
+    a {
+      color: white;
+      transition: color 0.2s;
+      &:hover {
+        color: #4180cb;
+      }
+    }
+  }
+  .location {
+    i {
+      font-size: 18px;
+    }
+  }
+  .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+.about-us h1 p {
+  align-items: center;
+}
