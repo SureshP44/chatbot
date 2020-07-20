@@ -112,5 +112,4 @@ def errors(e):
     return render_template('error.html', error = 'Oops..! Some error occured.')
 
 if __name__ == '__main__':
-    
     app.run(debug = True)
